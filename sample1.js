@@ -1,5 +1,5 @@
 'use strict'
-
+// testing
 function isArguments (thingy) {
   return thingy != null && typeof thingy === 'object' && thingy.hasOwnProperty('callee')
 }
